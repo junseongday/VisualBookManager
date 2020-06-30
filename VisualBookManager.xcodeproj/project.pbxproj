@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B59514D24ABF30600C9D31B /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59514A24ABF30500C9D31B /* BookManager.swift */; };
+		5B59514E24ABF30600C9D31B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59514B24ABF30500C9D31B /* Book.swift */; };
 		5BD7ACC724ABEA5900CDF715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7ACC624ABEA5900CDF715 /* AppDelegate.swift */; };
 		5BD7ACC924ABEA5900CDF715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7ACC824ABEA5900CDF715 /* SceneDelegate.swift */; };
 		5BD7ACCB24ABEA5900CDF715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7ACCA24ABEA5900CDF715 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B59514A24ABF30500C9D31B /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		5B59514B24ABF30500C9D31B /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		5BD7ACC324ABEA5900CDF715 /* VisualBookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD7ACC624ABEA5900CDF715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD7ACC824ABEA5900CDF715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				5BD7ACCF24ABEA5A00CDF715 /* Assets.xcassets */,
 				5BD7ACD124ABEA5A00CDF715 /* LaunchScreen.storyboard */,
 				5BD7ACD424ABEA5A00CDF715 /* Info.plist */,
+				5B59514B24ABF30500C9D31B /* Book.swift */,
+				5B59514A24ABF30500C9D31B /* BookManager.swift */,
 			);
 			path = VisualBookManager;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				5BD7ACCB24ABEA5900CDF715 /* ViewController.swift in Sources */,
 				5BD7ACC724ABEA5900CDF715 /* AppDelegate.swift in Sources */,
+				5B59514E24ABF30600C9D31B /* Book.swift in Sources */,
+				5B59514D24ABF30600C9D31B /* BookManager.swift in Sources */,
 				5BD7ACC924ABEA5900CDF715 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
